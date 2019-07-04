@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: darkslateblue;
+    background-color: #532323;
+    color: white;
 }
 
 .card-body {
@@ -15,4 +16,13 @@ body {
 .card-header {
     background-color: gray;
     color: white;
+}
+
+.btn {
+    background-color: #532323;
+    color: white;
+}
+
+.btn:hover {
+    color: grey;
 }
