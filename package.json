@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Mock dating application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhawkins01/FriendFinder.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Dave Hawkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhawkins01/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/dhawkins01/FriendFinder#readme"
+}
