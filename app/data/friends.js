@@ -50,5 +50,6 @@ var friends = [
         name: "Tim",
         image: "../public/images/Tim.jpg",
         scores: ["1", "2", "3", "1", "4", "2", "5", "2", "3", "2"]
-    },
-]
+    }
+];
+module.exports = friends;

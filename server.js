@@ -11,12 +11,14 @@ var PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to point to the app directory
 app.use(express.static(__dirname + "/app/public"));
-
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 
 // This points to the routing files for the application
 // require("./app/routing/htmlRoutes.js")(app);
 require("./app/routing/htmlRoutes")(app);
+require("./app/routing/apiRoutes")(app);
 
 // Starts the server to begin listening
 // =============================================================
